@@ -1,30 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
-.pad {
-    width: 100px;
-    height: 100px;
-
+body {
+    background-color: black;
+    text-align: center;
+    margin-top: 30px;
 }
+
+h1 {
+    color: #fff;
+    text-align:left;
+}
+
+.pad {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
 .bottom-right-pad {
     background-color: red;
-    border-bottom-right-radius: 200px;
+    border-bottom-right-radius: 100%;
 }
 
 .bottom-left-pad {
     background-color: blue;
-    border-bottom-left-radius: 200px;
+    border-bottom-left-radius: 100%;
 }
 
 .top-right-pad {
     background-color: green;
-    border-top-right-radius: 200px;
+    border-top-right-radius: 100%;
 }
 
 .top-left-pad {
     background-color: yellow;
-    border-top-left-radius: 200px;
+    border-top-left-radius: 100%;
 }
 
+.middle {
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: black;
+    left: 575px;
+    bottom: 110px;
+}
 .red {
     background-color: red;
 }
