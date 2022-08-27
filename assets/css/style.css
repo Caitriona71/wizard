@@ -18,8 +18,8 @@ h1 {
     cursor: pointer;
 }
 
-pad:hover {
-    /*border: 1px solid white;*/
+.pad:hover {
+    /* border: 1px solid white;*/
     box-shadow: inset 0px 0px 0px 6px white;
     box-sizing: border-box;
 }
