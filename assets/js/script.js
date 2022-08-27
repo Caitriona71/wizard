@@ -13,5 +13,12 @@ const sequence = [
 const flash = (pad) => {
     return new Promise((resolve, reject)m=> {
         pad.className += ' active';
-    }
-}
+        setTimeout(() => {
+            pad.className = pad.className.replace(
+                ' active',
+                ''
+            );
+            resolve();
+        }, 1000);
+        });
+    };
