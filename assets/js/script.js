@@ -9,3 +9,7 @@ const sequence = [
     bottomLeft,
     topRight
 ];
+
+const flash = (pad) => {
+    
+}
