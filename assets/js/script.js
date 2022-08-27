@@ -10,8 +10,8 @@ const sequence = [
     topRight
 ];
 
-const flash = (pad) => {
-    return new Promise((resolve, reject)m=> {
+const flash = pad => {
+    return new Promise((resolve, reject) => {
         pad.className += ' active';
         setTimeout(() => {
             pad.className = pad.className.replace(
@@ -21,4 +21,10 @@ const flash = (pad) => {
             resolve();
         }, 1000);
         });
+    };
+
+    const main = async () => {
+        for (const pad of sequence) {
+        await flash(pad);
+        }
     };
