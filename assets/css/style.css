@@ -15,26 +15,37 @@ h1 {
     width: 200px;
     height: 200px;
     display: inline-block;
+    cursor: pointer;
+}
+
+.pad:hover {
+    /* border: 1px solid white; */
+    box-shadow: inset 0px 0px 0px 6px white;
+    box-sizing: border-box;
 }
 
 .bottom-right-pad {
-    background-color: red;
+    background-color: #0add08;
     border-bottom-right-radius: 100%;
 }
 
 .bottom-left-pad {
-    background-color: blue;
+    background-color: #41fdfe;
     border-bottom-left-radius: 100%;
 }
 
 .top-right-pad {
-    background-color: green;
+    background-color: #fe019a;
     border-top-right-radius: 100%;
 }
 
 .top-left-pad {
-    background-color: yellow;
+    background-color:#cfff04;;
     border-top-left-radius: 100%;
+}
+
+.active {
+    background-color: white;
 }
 
 .middle {
@@ -44,21 +55,21 @@ h1 {
     height: 200px;
     border-radius: 100%;
     background-color: black;
-    left: 575px;
-    bottom: 110px;
+    left: 532px;
+    bottom: 107px;
 }
 .red {
-    background-color: red;
+    background-color: #fe019a;
 }
 
 .green {
-    background-color: green;
+    background-color: #0add08;
 }
 
 .blue {
-    background-color: blue;
+    background-color: #41fdfe;
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: #cfff04;
 }
